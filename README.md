@@ -33,7 +33,7 @@ assets/
 Clone repository:
 
 ```bash
-git clone https://github.com/riodrwn/wg-config.git
+git clone https://github.com/patarisac/wg-config.git
 cd wg-config
 ```
 

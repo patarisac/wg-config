@@ -747,18 +747,18 @@
               <p class="section-kicker">01 Connection</p>
               <h2 id="endpointTitle">Server access</h2>
             </div>
-            <p class="section-note">The public endpoint and ports clients will use to join the tunnel.</p>
+            <p class="section-note">The endpoint and ports clients will use to join the tunnel.</p>
           </div>
           <div class="port-stack">
             <div class="field">
-              <label for="serverEndpoint">Server Endpoint</label>
+              <label for="serverEndpoint">Server / Host (with Burp Suite proxy) Endpoint</label>
               <div class="input-addon">
                 <span>IP</span>
                 <input id="serverEndpoint" value="192.168.0.10" autocomplete="off">
               </div>
             </div>
             <div class="field">
-              <label for="listenPort">Listen Port</label>
+              <label for="listenPort">Listen Port (Default: 51820)</label>
               <div class="input-addon">
                 <span>Port</span>
                 <input id="listenPort" type="number" value="51820" min="1">
@@ -788,7 +788,7 @@
               <input id="allowedIPs" value="0.0.0.0/0" autocomplete="off">
             </div>
             <div class="field">
-              <label for="baseAddr">Server Subnet Base</label>
+              <label for="baseAddr">VPN Server Subnet Base</label>
               <input id="baseAddr" value="10.13.37." autocomplete="off">
             </div>
             <div class="field">
